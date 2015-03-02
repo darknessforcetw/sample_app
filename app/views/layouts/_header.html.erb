@@ -1,9 +1,13 @@
-<%= link_to 'Rails Taoyuan','#',id:"logo" %>
-<nav>
-  <ul class="nav navbar-nav navbar-right">
-      <li><%=link_to '首頁',root_path%></li>
-      <li><%=link_to '活動','#'%></li>
-      <li><%=link_to '關於', staticpages_about_path%></li>
-      <li><%=link_to '登入','#'%></li>
-  </ul>
-</nav>
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to 'Rails Taoyuan','root_path',id:"logo" %>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+          <li><%=link_to '首頁',root_path%></li>
+          <li><%=link_to '活動','#'%></li>
+          <li><%=link_to '關於', staticpages_about_path%></li>
+          <li><%=link_to '登入','#'%></li>
+      </ul>
+    </nav>
+  </div>
+</header>
